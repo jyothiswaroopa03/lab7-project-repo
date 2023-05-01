@@ -1,0 +1,40 @@
+//=====================================================================
+// Project: 4 core MESI cache design
+// File Name: test_lib.svh
+// Description: Base test class and list of tests
+// Designers: Venky & Suru
+//=====================================================================
+//TODO: add your testcase files in here
+`include "base_test.sv"
+`include "read_miss_icache.sv"
+`include "write_miss_dcache.sv"
+`include "read_miss_dcache.sv"
+`include "five_seq_test.sv"
+`include "five_seq_test_dcache.sv"
+`include "rd_wr_test_dcache.sv"
+`include "five_wr_dcache.sv"
+`include "mixed_long_test.sv"
+`include "rd_same_icache.sv"
+`include "rd_same_dcache.sv"
+`include "wr_same_dcache.sv"
+`include "read_on_two_proc.sv"
+`include "rd_wr_rd.sv"
+`include "lru_test.sv"
+`include "shared_test.sv"
+`include "wr_wr_rd.sv"
+`include "rd_rd_wr.sv"
+`include "wr_rd_wr.sv"
+`include "multiple_proc_rd_icache.sv"
+`include "mix_icache_dcache.sv"
+`include "invalid_check.sv"
+`include "inv_to_shared_check.sv"
+`include "shared_to_shared.sv"
+`include "read_for_replacement_test.sv"
+`include "multi_rd_wr_rd_test.sv"
+`include "mesi_check.sv"
+`include "random_ops.sv"
+`include "full_random.sv"
+`include "test.sv"
+`include "modified_to_invalid_check.sv"
+`include "lru_icache.sv"
+`include "test_write_miss_snoop.sv"
